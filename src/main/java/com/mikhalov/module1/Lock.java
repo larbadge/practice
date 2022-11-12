@@ -1,4 +1,4 @@
-package module1;
+package com.mikhalov.module1;
 
 import java.util.Arrays;
 

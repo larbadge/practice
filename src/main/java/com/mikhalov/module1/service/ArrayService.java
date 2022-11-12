@@ -1,4 +1,4 @@
-package module1.service;
+package com.mikhalov.module1.service;
 
 import java.util.Random;
 import java.util.Scanner;

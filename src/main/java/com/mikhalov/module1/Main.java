@@ -1,6 +1,6 @@
-package module1;
+package com.mikhalov.module1;
 
-import module1.service.ArrayService;
+import com.mikhalov.module1.service.ArrayService;
 
 import java.util.Arrays;
 
