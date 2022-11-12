@@ -7,7 +7,6 @@ import java.util.Arrays;
 public class Main {
 
 
-
     public static void main(String[] args) {
         ArrayService arrayService = new ArrayService();
         int[] array = arrayService.createArray(-100, 101);
@@ -22,16 +21,5 @@ public class Main {
         lock.printArray();
         lock.getArray()[0] = 10;
         lock.printArray();
-
-
-
-
     }
-
-
-
-
-
-
-
 }
