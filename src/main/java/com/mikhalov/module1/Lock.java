@@ -2,16 +2,16 @@ package com.mikhalov.module1;
 
 import java.util.Arrays;
 
-public class Lock {
+public final class Lock {
 
     private final int[] array;
 
     public Lock(final int[] array) {
-        this.array = array;
+        this.array = array.clone();
     }
 
     public int[] getArray() {
-        return Arrays.copyOf(array, array.length);
+        return array.clone();
     }
 
     public void printArray() {

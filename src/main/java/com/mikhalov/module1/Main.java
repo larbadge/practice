@@ -16,10 +16,13 @@ public class Main {
         arrayService.cubeEachThirdElement(array);
         System.out.println(Arrays.toString(array));
 
+
         System.out.println();
         Lock lock = new Lock(array);
         lock.printArray();
         lock.getArray()[0] = 10;
+        lock.printArray();
+        array[0] = 10;
         lock.printArray();
     }
 }
